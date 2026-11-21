@@ -1,0 +1,12 @@
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: loja-config
+  namespace: n3-weslei
+data:
+  PORT: "3000"
+  DB_HOST: "mysql"
+  DB_PORT: "3306"
+  DB_NAME: "loja"
+  REDIS_URL: "redis://redis:6379"
